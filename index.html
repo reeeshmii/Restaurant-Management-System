@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Savvra</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header section -->
+    <section class="header">
+      <a href="#" class="logo">
+        <img
+          src="../Screenshot_2025-03-05_135108-removebg-preview.png"
+          alt="SAVVRA Logo"
+          style="height: 39px; width: auto"
+        />
+        SAVVRA</a
+      >
+
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#food">Food</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#menu">Menu</a>
+        <a href="#order">Order</a>
+        <a href="#blogs">Blogs</a>
+      </nav>
+      <div id="menu-btn" class="fas fa-bars"></div>
+    </section>
+    <!-- end of header  -->
+
+    <!-- home section  -->
+<section class="home" id="home">
+  <div class="swiper home-slider">
+    <div class="swiper-wrapper">
+    
+    <div class="swiper-slide slide" style="background: url('../fron.jpeg') no-repeat center/cover;">
+      <div class="content">
+        <span>Outstanding food</span>
+        <h3>Delicious Food</h3>
+        <a href="#menu"  class="btn">Get Started</a>
+      </div>
+    </div>
+
+    <div class="swiper-slide slide" style="background: url('../fon3_1.jpeg') no-repeat center/cover;">
+      <div class="content">
+        <span>Outstanding food</span>
+        <h3>Authentic Flavors</h3>
+        <a href="#gallery" class="btn">Get Started</a>
+      </div>
+    </div>
+
+    <div class="swiper-slide slide" style="background: url('../kaba.jpeg') no-repeat center/cover;">
+      <div class="content">
+        <span>Outstanding food</span>
+        <h3>Amazing Recipes</h3>
+        <a href="#blogs" class="btn">Get Started</a>
+      </div>
+    </div>
+    </div>
+<div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div> <!-- Closing home-slider -->
+</section>
+<!-- end of home  -->
+
+<!-- about section  -->
+ <section class="about" id="about">
+  <div class="image">
+    <img src="../about.jpg" alt="" height="300px">
+  </div>
+  <div class="content">
+    <h3>Every Flavor Tells a Story</h3>
+    
+    <br></br>
+    <p>Welcome to Savvra, where flavors come alive and every meal is a celebration!
+      Our journey began with a simple idea—to create a warm, inviting space where food lovers can enjoy delicious meals in a cozy ambiance.
+    </p>
+    <br></br>
+    <h2>Book Through a Call</h2>
+    <h1>+91 8114567209</h1>
+    <br></br>
+    <a href="#" class="btn">Read More</a>
+  </div>
+ </section>
+ <!-- about end  -->
+
+
+
+ <!-- food section start  -->
+  <section class="food" id="food">
+    <div class="heading">
+      <span>Popular Dishes</span>
+      <h3>Our delicious food</h3>
+    </div>
+
+    <div class="swiper food-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide slide" data-name="food-1">
+          <img src="../tha.jpg" alt="">
+          <h3>Indian Thalis</h3>
+          <div class="price">
+            <h3>₹150 onwards</h3>
+
+          </div>
+        </div>
+
+<div class="swiper-slide slide" data-name="food-2">
+          <img src="../Biriyani.jpeg" alt="">
+          <h3>Biriyani</h3>
+          <div class="price">
+            <h3>₹200 onwards</h3>
+
+          </div>
+        </div>
+
+<div class="swiper-slide slide" data-name="food-3">
+          <img src="../butterchicken.jpeg" alt="">
+          <h3>Punjabi Dishes</h3>
+          <div class="price">
+            <h3>₹200 onwards</h3>
+          </div>
+        </div>
+
+<div class="swiper-slide slide" data-name="food-4">
+          <img src="../paneer.jpeg" alt="">
+          <h3>Vegetarian Dishes</h3>
+          <div class="price">
+            <h3>₹200 onwards</h3>
+          </div>
+        </div>
+
+<div class="swiper-slide slide" data-name="food-5">
+          <img src="../spa.jpeg" alt="">
+          <h3>Chineese Dishes</h3>
+          <div class="price">
+            <h3>₹150 onwards</h3>
+          </div>
+        </div>
+
+<div class="swiper-slide slide" data-name="food-6">
+          <img src="../des1.jpg" alt="">
+          <h3>Desserts</h3>
+          <div class="price">
+            <h3>₹50 onwards</h3>
+          </div>
+        </div>
+
+
+
+
+      </div>
+ <div class="swiper-pagination"></div>
+<div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    </div>
+  </section>
+  <!-- food end  -->
+
+
+  <!-- foodpreview section  -->
+  <section class="food-preview-container">
+
+   <div class="foood-preview" data-target="food-1">
+    <img src="../tha.jpg" alt="">
+    <h3>Indian Thalis</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i><i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+
+    </div>
+      <p>Tasty Indian Thalis depicting different states of India !</p>
+      <div class="price">
+        <h3>₹150 onwards</h3>
+        <a href="#order" class="btn">Buy Now</a>
+      </div>
+   </div>
+
+<div class="foood-preview" data-target="food-1">
+    <img src="../Biriyani.jpeg" alt="">
+    <h3>Biriyanis</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i><i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+
+    </div>
+      <p>Delicious biriyanis representing authentic flavors !</p>
+      <div class="price">
+        <h3>₹200 onwards</h3>
+        <a href="#order" class="btn">Buy Now</a>
+      </div>
+   </div>
+
+   <div class="foood-preview" data-target="food-1">
+    <img src="../butterchicken.jpeg" alt="">
+    <h3>Punjabi Dishes</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i><i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+
+    </div>
+      <p>Try some authentic dishes from the golden land of wheat</p>
+      <div class="price">
+        <h3>₹200 onwards</h3>
+        <a href="#order" class="btn">Buy Now</a>
+      </div>
+   </div>
+
+   <div class="foood-preview" data-target="food-1">
+    <img src="../paneer.jpeg" alt="">
+    <h3>Vegetarian Dishes</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i><i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+
+    </div>
+      <p>Get to taste some of the interesting veg options !</p>
+      <div class="price">
+        <h3>₹200 onwards</h3>
+        <a href="#order" class="btn">Buy Now</a>
+      </div>
+   </div>
+
+   <div class="foood-preview" data-target="food-1">
+    <img src="../spae.jpg" alt="">
+    <h3>Chineese</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i><i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+
+    </div>
+      <p>Delicious indo-chineese options !</p>
+      <div class="price">
+        <h3>₹200 onwards</h3>
+        <a href="#order" class="btn">Buy Now</a>
+      </div>
+   </div>
+
+
+   <div class="foood-preview" data-target="food-1">
+    <img src="../des1.jpg" alt="">
+    <h3>Desserts</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i><i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+
+    </div>
+      <p>Flavorful sweets that melts in your mouth!</p>
+      <div class="price">
+        <h3>₹50 onwards</h3>
+        <a href="#order" class="btn">Buy Now</a>
+      </div>
+   </div>
+
+
+  </section> 
+  <!-- foo preview end  -->
+
+
+  <!-- gallery starts  -->
+   <section class="gallery" id="gallery">
+    <div class="headig">
+      <span>Gallery</span>
+      
+    </div>
+    <div class="gallery-container">
+
+      <a href="../dos.jpg" class="box">
+      <img src="../dos.jpg" alt="">
+      <div class="icon"><i class="fas fa-plus"></i></div>
+    </a>
+    
+
+       <a href="../rolls.jpg" class="box">
+      <img src="../rolls.jpg" alt="">
+      <div class="icon"><i class="fas fa-plus"></i></div>
+    </a>
+
+    <a href="../pav.jpg" class="box">
+      <img src="../pav.jpg" alt="">
+      <div class="icon"><i class="fas fa-plus"></i></div>
+    </a>
+    
+    <a href="../san.jpg" class="box">
+      <img src="../san.jpg" alt="">
+      <div class="icon"><i class="fas fa-plus"></i></div>
+    </a>
+
+<a href="../ric.jpg" class="box">
+      <img src="../ric.jpg" alt="">
+      <div class="icon"><i class="fas fa-plus"></i></div>
+    </a>
+
+<a href="../pizza.jpg" class="box">
+      <img src="../pizza.jpg" alt="">
+      <div class="icon"><i class="fas fa-plus"></i></div>
+    </a>
+
+</div>
+   </section>
+
+   <!-- gallery ends -->
+
+   <!-- menu section start   -->
+   <section class="menu" id="menu">
+    <h3> Menu</h3>
+    <p>View our menu here</p>
+    
+    <a href="menu.html" target="_blank" >View Full Menu</a>
+   </section> 
+   <!-- menu end  -->
+   
+   <!-- order section  -->
+    <section id="order" class="order">
+      <div class="heading">     
+         <span>Order Now</span>
+      <h3>Fast Home Delivery</h3>
+      </div>
+  <form action="payment.html">
+    <div class="box-container">
+      <div class="box">
+        <div class="inputBox">
+          <span>Full Name</span>
+          <input type="text" required placeholder="Enter Your Name" id="">
+        </div>
+        <!-- <div class="inputBox">
+          <span>Full Name</span>
+          <input type="text" placeholder="Enter Your Name" id="">
+        </div> -->
+        <div class="inputBox">
+          <span>Food Order</span>
+          <input type="text" required placeholder="Enter Your Food Item" id="">
+        </div>
+        <div class="inputBox">
+          <span>Order Details</span>
+          <input type="text"  placeholder="Specifics with food " id="">
+        </div>
+        <div class="inputBox">
+         <span>Enter Address for Delivery</span>
+          <textarea name="" required placeholder="Enter Address" id="" cols="30" rows="10"></textarea>
+        </div>
+      </div>
+     <div class="box">
+        <div class="inputBox">
+          <span>Contact Number</span>
+          <input type="number" required placeholder="Enter Your Number" id="">
+        </div>
+        <div class="inputBox">
+          <span>Quantity</span>
+          <input type="number"required  placeholder="Enter Required Quantity" id="">
+        </div>
+        <div class="inputBox">
+          <span>Required Time</span>
+          <input type="datetime-local" placeholder="Enter Your time Required" id="">
+        </div>
+          <div class="inputBox">
+         <span>Our Address</span>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3825.5747759786846!2d80.4991965!3d16.497055400000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35f27d40f21c55%3A0x1490eacd54859850!2sVIT-AP%20University!5e0!3m2!1sen!2sin!4v1741948657388!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+      
+
+    </div>
+    <button type="submit" onclick="validateAndRedirect()">Order Now</button>
+  </form>
+    </section>
+    <!-- order end  -->
+
+    <!-- blog section starts  -->
+     <section class="blogs" id="blogs">
+      <div class="heading">
+        <span>Blogs</span>
+        <h3>Our Latest Posts</h3>
+      </div>
+      <div class="swiper blogs-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="../pla.jpg" alt="">
+              <span>Platters</span>
+            </div>
+            <div class="content">
+              <div class="icon">
+                <a href="#"><i class="fas fa-calendar"></i>21st March 2025</a>
+                <a href="#"><i class="fas fa-user"></i>By Curly Tales</a>
+              </div>
+              <a href="#" class="title">Delicious Platters</a>
+              <p>Indulge in a variety of flavors with our special platters, carefully curated to satisfy all your cravings. From Indian thalis to continental spreads, our platters bring you the best of multiple cuisines on a single plate.</p>
+              <a href="https://curlytales.com/web-stories/7-non-vegetarian-items-to-add-to-your-mezze-platter/" class="btn">Read More</a>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="../g2.jpg" alt="">
+              <span>Gulab Jamun</span>
+            </div>
+            <div class="content">
+              <div class="icon">
+                <a href="#"><i class="fas fa-calendar"></i>20th May 2020</a>
+                <a href="#"><i class="fas fa-user"></i>By Swasthi</a>
+              </div>
+              <a href="#" class="title">Sweet Treat!</a>
+              <p>Soft, spongy, and soaked in sugar syrup—Gulab Jamun is the heart of every Indian festival. Learn about its history, variations, and a step-by-step recipe to make the perfect batch at home.</p>
+              <a href="https://www.indianhealthyrecipes.com/gulab-jamun-recipe-using-milk-powder/" class="btn">Read More</a>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="../fre.jpg" alt="">
+              <span>Fried Rice</span>
+            </div>
+            <div class="content">
+              <div class="icon">
+                <a href="#"><i class="fas fa-calendar"></i>2nd June 2021</a>
+                <a href="#"><i class="fas fa-user"></i>By Milan</a>
+              </div>
+              <a href="#" class="title">Let's get Chineese</a>
+              <p>Originating from China but embraced worldwide, fried rice is a staple in many households. Explore different styles, from Indo-Chinese to Thai basil fried rice, and find the perfect recipe for your next meal.</p>
+              <a href="https://www.bing.com/search?q=blogs%20on%20platters%20fried%20rice&qs=n&form=QBRE&sp=-1&lq=0&pq=blogs%20on%20platters%20fried%20ri&sc=12-26&sk=&cvid=537B7BB1D9E94636B7D70F314164D292&ghsh=0&ghacc=0&ghpl=" class="btn">Read More</a>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="../b.jpg" alt="">
+              <span>Butter Chicken</span>
+            </div>
+            <div class="content">
+              <div class="icon">
+                <a href="#"><i class="fas fa-calendar"></i>21st January 2023</a>
+                <a href="#"><i class="fas fa-user"></i>By Yuvan</a>
+              </div>
+              <a href="#" class="title">The King of Curries</a>
+              <p>Rich, creamy, and packed with flavor, Butter Chicken is one of India's most famous dishes. Find out the secret behind its perfect balance of spices and how to recreate the restaurant-style taste at home.</p>
+              <a href="https://www.licious.in/blog/recipe/butter-chicken-recipe" class="btn">Read More</a>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="../chi.jpg" alt="">
+              <span>Chilli Paneer</span>
+            </div>
+            <div class="content">
+              <div class="icon">
+                <a href="#"><i class="fas fa-calendar"></i>13th December 2024</a>
+                <a href="#"><i class="fas fa-user"></i>By Karthi</a>
+              </div>
+              <a href="#" class="title">The Perfect Indo-Chinese Snack
+
+</a>
+              <p>A crispy, spicy, and tangy treat, Chilli Paneer is a must-try for all lovers of fusion food. Learn how to make both dry and gravy versions with our easy-to-follow guide.</p>
+              <a href="https://www.bing.com/search?q=blogs%20on%20platters%20chilli%20paneer&qs=n&form=QBRE&sp=-1&ghc=1&lq=0&pq=blogs%20on%20platters%20chilli%20paneer&sc=12-31&sk=&cvid=AEF2073461BE490384BEC0D3357535BD&ghsh=0&ghacc=0&ghpl=" class="btn">Read More</a>
+            </div>
+          </div>
+ 
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="../mo.jpg" alt="">
+              <span>Mojitos</span>
+            </div>
+            <div class="content">
+              <div class="icon">
+                <a href="#"><i class="fas fa-calendar"></i>5th April 2022</a>
+                <a href="#"><i class="fas fa-user"></i>By John</a>
+              </div>
+              <a href="#" class="title">Refreshing Drinks for Every Occasion</a>
+              <p>Beat the heat with a refreshing mojito! Whether it's classic mint and lime or fruity variations like mango and strawberry, mojitos are the perfect drink to cool down on a sunny day.</p>
+              <a href="https://www.plattershare.com/recipe/mojito/" class="btn">Read More</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-pagination"></div>
+<div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+      </div>
+     </section>
+     <!-- blog section ends  -->
+
+     <!-- footer starts  -->
+      <section class="footer">
+        <div class="icons-container">
+          <div class="icons">
+            <i class="fas fa-clock"></i>
+            <h3>Opening hours</h3>
+              <p>8:00am to 10:00pm</p>            
+          </div>
+
+          <div class="icons">
+            <i class="fas fa-phone"></i>
+            <h3>Phone</h3>
+              <p>+91 8114567209</p>            
+          </div>
+
+           <div class="icons">
+            <i class="fas fa-envelope"></i>
+            <h3>Email</h3>
+              <p>savvra@gmail.com</p>            
+          </div>
+
+           <div class="icons">
+            <i class="fas fa-map"></i>
+            <h3>Address</h3>
+              <p>VIT-AP University</p>            
+          </div>
+
+        </div>
+
+       <div class="share">
+        <a href="#" class="fab fa-facebook"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-youtube"></a>
+       </div>
+
+       <div class="credit">Created by <span>Reshmi</span>
+      | all rights reserved</div>
+      </section>
+      <!-- footer ends  -->
+   
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+    <script>
+      lightGallery(document.querySelector('.gallery .gallery-container'));
+    </script>
+
+
+   // Payment
+   <script>
+  function validateAndRedirect() {
+    const form = document.querySelector("form");
+
+    if (form.checkValidity()) {
+        window.location.href = "payment.html"; // Redirect if valid
+    } else {
+        alert("Please fill in all required fields.");
+    }
+}
+</script>
+
+  </body>
+</html>

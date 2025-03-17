@@ -1,0 +1,96 @@
+.menu .heading {
+    text-align: center;
+}
+
+.menu .heading span{
+    color: whitesmoke;
+    font-size: 60px;
+    font-family:fantasy;
+    align-content: center;
+}
+
+
+.menu{
+ background: url('../bac.jpg') repeat-y;
+    background-size:contain;
+    animation: moveUp 100s linear infinite;
+   position: relative;
+   overflow: hidden;
+}
+.menu::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.744); /* Adjust opacity for darkness */
+    z-index: 1;
+}
+
+.menu * {
+    position: relative;
+    z-index: 9;
+}
+
+    @keyframes moveUp {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 0 -100%;
+    }
+}
+
+.menu .slide .titlee{
+    padding:1rem;
+    font-size: 2rem;
+    color: white;
+    background-color: peru;
+    margin: 2rem;
+    text-align: center;
+    
+}
+
+.menu .slide .title{
+    padding:0.5rem;
+    font-size: 2rem;
+    color:rgb(204, 112, 20);
+    font-family: monospace;
+    /* background-color:bisque; */
+    margin: 0.5em;
+    text-align: center;
+    
+}
+
+.menu .slide .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.menu .slide .box-container .box{
+
+    color: rgb(235, 230, 230);
+    flex: 1 1 1rem;
+    background: transparent;
+    border-style:double;
+    border-color:white ;
+    padding: 2rem;
+    margin: 9px;
+    box-shadow: rgb(151, 146, 146);
+   
+   }
+
+   .menu .slide .box-container .box .price{
+     font-family: monospace;
+     font-size: 20px;
+     font-weight: bold;
+   }
+   
+.menu .slide .box-container .box:hover{
+      transform: scale(1.1); 
+    transition: transform 0.3s ease-in-out; 
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
