@@ -1,7 +1,7 @@
 # Restaurant-Management-System
 
 ##📌 Description
-A simple website for a restaurant that is responsive (responsive)
+A simple website for a restaurant that is responsive 
 
 ## 🚀 Features
 - User-friendly ordering system
